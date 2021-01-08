@@ -1,0 +1,7 @@
+<!-- 地图 -->
+  <map class="map">  </map>
+  <!-- latitude="{{latitude}}" longitude="{{longitude}}" -->
+  <!-- 签到按钮 -->
+  <view class="sign_in" bindtap="sign_in">
+签 到
+  </view>

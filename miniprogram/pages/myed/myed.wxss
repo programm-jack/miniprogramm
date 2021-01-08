@@ -1,0 +1,19 @@
+.list-view{
+  margin: 20px 0 0 0;
+}
+.item{
+  overflow: hidden;
+  border-bottom: 1px dashed #87CEFF;
+  height: 30px;
+  line-height: 30px;
+}
+.text1{
+  float: left;
+}
+.button1{
+  margin-top: 10rpx;
+  margin-left: 300rpx;
+  width: 150rpx;
+  border-radius: 4px 4px 4px 4px;
+  background-color:blueviolet;
+}

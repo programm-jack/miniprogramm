@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/sign_in/sign_in",
+    "pages/myed/myed",
+
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "./images/index.png",
+      "selectedIconPath": "./images/index1.png"
+    },{
+      "pagePath": "pages/sign_in/sign_in",
+      "text": "签到",
+      "iconPath": "./images/sign_in.png",
+      "selectedIconPath": "./images/sign_in1.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "留言",
+      "iconPath": "./images/my.png",
+      "selectedIconPath": "./images/my1.png"
+    }
+    ,{
+      "pagePath": "pages/myed/myed",
+      "text": "留言板",
+      "iconPath": "./images/my.png",
+      "selectedIconPath": "./images/my1.png"
+    }
+  ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1380F7",
+    "navigationBarTitleText": "办公",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序签到" 
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

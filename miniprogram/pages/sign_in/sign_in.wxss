@@ -1,0 +1,25 @@
+/* pages/sign_in/sign_in.wxss */
+/* 地图 */
+page{
+  background-color: white;
+ 
+}
+.map{
+  width: 100%;
+  height: 800rpx;
+}
+.sign_in{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #1380f7;
+  display: flex;
+  align-items: center;
+  border-radius: 100rpx;
+  justify-content: center;
+  color: #fff;
+  font-size: 45rpx;
+  position: fixed;
+  left: 40%;
+  bottom:10rpx;
+  align-self: center;
+}

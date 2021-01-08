@@ -1,0 +1,9 @@
+  <!--留言列表-->
+ 
+  <view class="list-view">
+      <view class="item" wx:for="{{datalist}}" wx:key="index">
+       <text class="text1">{{item.content}}</text> 
+        <view style="float:right">from:{{item.author}}</view>       
+      </view>
+   </view>
+   <view class="button1" bindtap="display">点击显示留言内容</view>

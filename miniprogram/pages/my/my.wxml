@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<image src="../../images/liuyanban.jfif"/>
+<view class="msg-box">
+<!--留言-->
+   <view class="send-box">
+   
+      <!-- <input  class="input" type="text" value="{{autoinput}}" placeholder="留言名字……" placeholder-class="place-input"/> -->
+      <input bindinput="changeInputValue" class="input" type="text" value="{{inputVal}}" placeholder="请输入留言……" placeholder-class="place-input"/>
+      <button size="mini" type="primary" bindtap="addMsg">添加</button>
+     
+   </view>
+   <input style="width:400rpx" bindinput="changeInputValue1" class="input" type="text" value="{{inputVal1}}" placeholder="请留名……" placeholder-class="place-input"/>
+</view>
